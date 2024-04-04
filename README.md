@@ -1,5 +1,7 @@
 <h1> Automation with PyAutoGUI </h1>
 
+note: user can force pyautogui to stop running by moving the mouse to a corner of the screen
+
 ### Install PyAutoGUI
 <code> pip3 install pyautogui </code> 
 
