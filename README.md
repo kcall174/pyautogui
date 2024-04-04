@@ -1,9 +1,9 @@
-<h1> Fun with PyAutoGUI </h1>
+<h1> Automation with PyAutoGUI </h1>
 
-Install PyAutoGUI
+### Install PyAutoGUI
 <code> pip3 install pyautogui </code> 
 
-# Making a square with pyautogui 
+### Making a square with pyautogui 
 <code>import pyautogui</code>
 
 # Move mouse by iterating 100 times (can change how any amount)
