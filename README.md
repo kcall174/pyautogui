@@ -3,7 +3,7 @@
 note: user can force pyautogui to stop running by moving the mouse to a corner of the screen
 
 ### Install PyAutoGUI
-<code> pip3 install pyautogui </code> 
+<code>pip3 install pyautogui </code> 
 
 ### Import pyautogui
 <code>import pyautogui</code>
