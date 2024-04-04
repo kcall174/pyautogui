@@ -26,8 +26,6 @@ import datetime
 
 screenSize= pyautogui.size() # get screensize
 
-#disclaimer - you should be working instead of using something like this.
-
 def moveMouse(): 
     pyautogui.moveTo95, screenSize[1], duration = 1
     
