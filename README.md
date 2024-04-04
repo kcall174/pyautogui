@@ -17,3 +17,32 @@ for i in range(100):
     pyautogui.moveTo(100, 200, duration = 0.25)
     
 ```
+
+### Adding Single Mouse Clicks
+```
+import pyautogui
+import threading
+import datetime
+
+screenSize= pyautogui.size() # get screensize
+ 
+def moveMouse(): 
+    pyautogui.moveTo95, screenSize[1], duration = 1
+    
+def clickMouse():
+    pyautogui.click()
+    main()
+    
+def main():
+    hour = datetime.datetime.now().hour
+    if hour == 17 or hour == 12:
+        print('end of dat reached')
+        quit()
+        
+    else: 
+        threading.Timer(5.0, moveMouse).start()
+        threading.Timer(10.0, clickMouse).start()
+        
+main()
+```
+
