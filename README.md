@@ -25,7 +25,9 @@ import threading
 import datetime
 
 screenSize= pyautogui.size() # get screensize
- 
+
+#disclaimer - you should be working instead of using something like this.
+
 def moveMouse(): 
     pyautogui.moveTo95, screenSize[1], duration = 1
     
@@ -36,7 +38,7 @@ def clickMouse():
 def main():
     hour = datetime.datetime.now().hour
     if hour == 17 or hour == 12:
-        print('end of dat reached')
+        print('end of day reached')
         quit()
         
     else: 
